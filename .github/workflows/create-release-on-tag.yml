@@ -58,7 +58,6 @@ jobs:
         mkdir artifact
         mv ./plugins ./artifact/
         mv ./scripting ./artifact/
-        mv ./LICENSE ./artifact/
 
     - name: Zip plugin
       run : |

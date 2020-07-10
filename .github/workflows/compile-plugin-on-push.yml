@@ -32,7 +32,6 @@ jobs:
         mkdir artifact
         mv plugins artifact
         mv scripting artifact
-        mv LICENSE artifact
 
     - name: Upload compiled plugin
       uses: actions/upload-artifact@v1
