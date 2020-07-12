@@ -32,6 +32,7 @@ jobs:
         mkdir artifact
         mv plugins artifact
         mv scripting artifact
+        mv gamedata artifact
 
     - name: Upload compiled plugin
       uses: actions/upload-artifact@v1

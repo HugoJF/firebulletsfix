@@ -56,8 +56,9 @@ jobs:
     - name: Prepare files for artifact
       run: |
         mkdir artifact
-        mv ./plugins ./artifact/
-        mv ./scripting ./artifact/
+        mv plugins artifact
+        mv scripting artifact
+        mv gamedata artifact
 
     - name: Zip plugin
       run : |
