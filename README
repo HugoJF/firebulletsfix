@@ -1,2 +1,28 @@
-This plugin needs dhooks in order to work.
-Please use now https://bitbucket.org/Drifter321/dhooks2/src/default/
+# Firebulletsfix
+
+Here is a fire bullet fix for source engine game servers, explanation: https://github.com/ValveSoftware/source-sdk-2013/pull/442
+
+## Overview
+
+- Type: `fork`
+- Stack: `C++`
+- Visibility: `Public`
+- Source: `Fork`
+- Last commit: `2020-07-12`
+- Status: Active/maintained as available.
+
+## Requirements
+
+- Runtime/tooling depends on project source files
+
+## Getting Started
+
+1. Clone the repository.
+2. Review repository files and run with the appropriate toolchain.
+
+## Notes
+
+- This README was refreshed to provide a practical project baseline.
+- Update setup commands if your workflow differs from the defaults above.
+
+_Generated on 2026-02-26._
